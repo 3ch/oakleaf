@@ -1,0 +1,374 @@
+html {
+	padding: 0px;
+	margin: 0px;
+	background: #000000;
+}
+body {
+	padding: 8px;
+	margin: 0px;
+	background-color: #000000;
+	color: #FFFFFF;
+	background-image: url(rei.png);
+	background-attachment: fixed;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+a {
+	color:#AFB9C5;
+
+}
+a:visited {
+	color:#9DA6B0;
+
+}
+a:hover {
+	color: color:#EEEEEE;
+
+}
+form {
+	margin: 0px;
+}
+ol ul, ul ol, ul ul, ol ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ol p:first-child, ul p:first-child {
+	margin-top: 0;
+}
+ol p:last-child, ul p:last-child {
+	margin-bottom: 0;
+}
+.aa {
+	font-family: Mona,'MS PGothic' !important; 
+}
+
+
+
+#navigation {
+	margin: 0.3em 0.3em 1em 1em;
+	font-size: small;
+	float: left;
+	white-space: nowrap;
+	background-color: #49525D;
+	padding: 3px 0px 3px 0px;
+	border: 1px solid #49525D;
+	-moz-border-radius: 4px;
+}
+#navigation strong {
+	background-color: #49525D;
+	padding: 3px;
+	color: #EEEEEE;
+	font-weight: bold;
+}
+#navigation a {
+	padding: 3px;
+}
+
+
+
+
+.outerbox, .backlogpage #threads {
+	background-color: #49525D;
+	color: #EEEEEE;
+	padding: 4px;
+	clear: both;
+}
+#titlebox {
+	-moz-border-radius: 6px 6px 0 0;
+}
+h1 {
+	color: #EEEEEE;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+#titlebox {
+	position: relative;
+}
+#titlebox .threadnavigation {
+	position: absolute;
+	right: 0.8em;
+	top: 0.9em;
+}
+#titlebox div>.threadnavigation {     
+        right: 0.3em;
+}
+#rules, #threadbox .innerbox {
+	background: inherit;
+	font-family: serif;
+	margin: 3px;
+	padding: 6px;
+	-moz-border-radius: 4px;
+}
+#stylebox {
+	padding: 1px 9px;
+	margin: -1px 0;
+}
+#threadbox {
+	margin-bottom: 2em;
+	-moz-border-radius: 0 0 6px 6px;
+}
+#threadbox .threadlink {
+	padding-right: 0.5em;
+}
+#threadlinks {
+	text-align: right;
+	font-weight: bold;
+}
+#createbox {
+	-moz-border-radius: 4px;
+}
+#createbox form {
+	background: #607080;
+	color: #000080;
+
+	font-family: serif;
+	margin: 3px;
+	padding: 3px;
+	-moz-border-radius: 4px;
+}
+#createbox h2 {
+background-color: #49525D;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 0 0 2em;
+	padding: 0px;
+	color: #EEEEEE;
+	text-decoration: none;
+}
+#createbox input, #createbox textarea {
+	border: 1px solid #000080;
+}
+#createbox textarea {
+	-moz-border-radius: 4px;
+}
+#createbox input[type=submit], #createbox input[type=button] {
+	background: #C0D0E0;
+	color: #000060;
+}
+.threadcaptcha {
+	color: #008000;
+}
+
+
+
+#posts {
+width: 70%;
+}
+#posts .thread {
+	background-color: #49525D;
+	padding: 4px;
+	margin-bottom: 2em;
+	clear: both;
+	-moz-border-radius: 6px;
+	
+}
+#posts .sagethread {
+	background: #D6E0F0;
+	padding: 4px;
+	margin-bottom: 2em;
+	clear: both;
+	-moz-border-radius: 6px;
+}
+#posts h2 {
+	float: left;
+	font-size: 1.2em;
+	color: #EEEEEE;
+	font-weight: bold;
+	margin: 0px 0px 0px 1em;
+	padding: 0px;
+}
+#posts h2 a {
+	color: #EEEEEE;
+	text-decoration: none;
+}
+#posts h2 a:hover {
+	text-decoration: underline;
+}
+#posts h2 small {
+	font-size: .7em;
+	font-weight: normal;
+}
+#posts .threadnavigation {
+	float: right;
+}
+#posts .replies {
+	clear: both;
+}
+#posts .allreplies, #posts .firstreply, #posts .finalreplies {
+	background: transparent;
+	color: #AFB9C5;
+	font-family: serif;
+	margin: 3px 3px 6px 3px;
+	padding: 3px;
+	-moz-border-radius: 4px;
+}
+#posts .replytext:after {
+	content: "";
+	display: block;
+	height: 0.1px;
+	clear: both;
+	margin: 0px;
+}
+
+#posts .repliesomitted {
+}
+
+
+
+#posts .reply {
+	clear: both;
+	margin: 0px 0px 0.5em 0px;
+}
+#posts .deletedreply {
+	clear: both;
+	margin: 0px 0px 1.2em 0px;
+}
+#posts h3 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+#posts .deletedreply h3 {
+	color: #AFAFAF;
+	font-weight: bold;
+}
+#posts h3 .replynum {
+	font-weight: bold;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+#posts h3 .replynum a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#posts h3 .replynum a:hover {
+	color: #000080;
+}
+#posts h3 .postername {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#posts h3 .postertrip {
+	color: #228854;
+}
+#posts .deletebutton {
+	font-size: small;
+}
+#posts img.thumb, #posts a img {
+	border-width: 1px;
+	float: left;
+	margin: 0.5em 2em 0.5em 3em;
+}
+#posts .nothumbnail {
+	float: left;
+	display: inline; /* stupid IE bug */
+	background: #eeeedc;
+	border: 2px dashed #ddddca;
+	text-align: center;
+	padding: 1em 0.5em 1em 0.5em;
+	margin: 0.5em 2em 0.5em 2em;
+}
+
+.replytext {
+	margin: 0.5em 0px 0px 3em;
+}
+.reply .replytext > :first-child {
+	margin-top: 0em;
+}
+.replytext blockquote {
+	margin-left: 0em;
+	color: #789922;
+}
+#posts .replyabbrev {
+	color: #9DA6B0;
+	margin-left: 3em;
+	margin-bottom: 0.5em;
+}
+
+
+
+#posts form {
+	clear: both;
+	background: #607080;
+	color: #000080;
+	font-family: serif;
+	margin: 3px;
+	padding: 3px;
+	-moz-border-radius: 4px;
+}
+#posts input, #posts textarea {
+	border: 1px solid #000080;
+}
+#posts textarea {
+	-moz-border-radius: 4px;
+}
+#posts input[type=submit], #posts input[type=button] {
+	background: #C0D0E0;
+	color: #000060;
+}
+#posts form .replytext {
+	border: 1px dotted #000080;
+	margin: 0.5em 0;
+	padding: 0 1em;
+	background: #FFFFFF;
+}
+#createbox form .replytext {
+	border: 1px dotted #008000;
+	margin: 0.5em 0;
+	padding: 0 1em;
+	background: #FFFFFF;
+}
+.postcaptcha {
+	color: #000080;
+}
+
+
+
+#footer {
+        text-align: center;
+        font-size: 0.8em;
+}
+
+
+
+#oldthreadlist {
+	width: 100%;
+	background: #FFFFFF;
+	font-family: serif;
+	padding: 6px;
+	-moz-border-radius: 4px;
+	margin: 0 auto;
+}
+
+#oldthreadlist th {
+	text-align: left;
+}
+
+#oldthreadlist .line0 {
+	background: #FFFFFF;
+}
+#oldthreadlist .line1 {
+	background: #DDDDDD;
+}
+
+#oldthreadlist a {
+	display: block;
+}
+
+
+
+.errorpage h1, .errorpage h2 {
+	text-align: center;
+}
+.spoiler {
+	background-color: black;
+	color: black;
+}
+.spoiler:hover {
+	background-color: black;
+	color: white;
+}
